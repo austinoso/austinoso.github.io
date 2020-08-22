@@ -1,0 +1,33 @@
+.side-padding {
+  padding: 5px 10%;
+}
+
+.spacing {
+  padding: 40px 0;
+}
+
+.social-icon {
+  height: 30px;
+  margin: 0 15px;
+}
+
+.circle-img {
+  height: 140px;
+  border-radius: 50%;
+  border: 5px;
+  border-color: rgba(0, 156, 255, 20%);
+  border-style: solid;
+  margin: 30px;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.grey {
+  background-color: #4e5661;
+}
+/* 
+footer {
+  background-color: #4e5661;
+} */

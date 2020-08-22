@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Austin Osorio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light side-padding">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center jumbo-padding">
+      <div class="container">
+        <img class="circle-img" src="./images/avatar.jpg" />
+        <h1 class="display-4">Austin Osorio</h1>
+        <p class="lead">
+          Full-stack web developer with a background in web and graphics design.
+          I first discovered my passion for programming after one long late
+          night of teaching myself game development in Unity. That experience
+          inspired me to start learning web development and eventually enrolling
+          in Flatiron's software engineering program where my focus was learning
+          React.js and Ruby on Rails.
+        </p>
+        <hr class="my-4" />
+        <p>
+          <a href="https://github.com/austinoso">
+            <img class="social-icon" src="./icons/svg/003-social-media-2.svg" />
+          </a>
+          <a href="https://www.linkedin.com/in/austinoso/">
+            <img class="social-icon" src="./icons/svg/004-social-media-3.svg" />
+          </a>
+        </p>
+
+        <!-- <a class="btn btn-light" href="#" role="button">
+          read more
+          <span
+            class="glyphicon glyphicon-align-left"
+            aria-hidden="true"
+          ></span>
+        </a> -->
+      </div>
+    </div>
+
+    <div class="container side-padding">
+      <h2 class="text-center spacing">Skills</h2>
+      <div class="row">
+        <div class="col-sm text-center">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">Ruby</li>
+            <li class="list-group-item">HTML, CSS</li>
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">Bootstrap</li>
+          </ul>
+        </div>
+        <div class="col-sm text-center">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">WordPress</li>
+            <li class="list-group-item">SQLite</li>
+            <li class="list-group-item">PostgreSQL</li>
+            <li class="list-group-item">MongoDB</li>
+            <li class="list-group-item">Linux</li>
+            <li class="list-group-item">Photoshop / Illustrator / Adobe XD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="text-center spacing">Projects</h2>
+      <div>
+        <h3>Sealed</h3>
+        <h6>Flatiron School - Student</h6>
+
+        <span class="badge badge-warning">JavaScript</span>
+        <span class="badge badge-danger">Ruby</span>
+        <span class="badge badge-info">React</span>
+        <span class="badge badge-danger">Rails</span>
+        <p>
+          Full-stack web application built with React and ROR messaging
+          application featuring single-use “burner” chats. Allowing users to
+          quickly delete all message history at the single click of a button.
+        </p>
+        <ul>
+          <li>
+            Utilized Actioncable and Redis to take advantage of web sockets to
+            seamlessly transmit data to the frontend live.
+          </li>
+          <li>
+            Implemented user interface with React and react-bootstrap for
+            styling.
+          </li>
+          <li>
+            Utilized JSON Web Tokens and localStorage to store encrypted user
+            information client-side.
+          </li>
+        </ul>
+        <h5>Other Technology Used</h5>
+        <p>Bootstrap, Redux, Redis</p>
+      </div>
+      <hr />
+      <div>
+        <h3>Corona Files</h3>
+        <h6>Flatiron School - Student</h6>
+
+        <span class="badge badge-warning">JavaScript</span>
+        <span class="badge badge-danger">Ruby</span>
+        <span class="badge badge-info">React</span>
+        <span class="badge badge-danger">Rails</span>
+        <p>
+          Full-stack web application built with React and ROR with a voting
+          system similar to Reddit’s upvotes and downvotes helps filter Corona
+          Virus news.
+        </p>
+        <ul>
+          <li>
+            Implemented user interface with React and react-bootstrap for
+            styling
+          </li>
+          <li>
+            Utilized JSON Web Tokens and localStorage to store encrypted user
+            information client-side.
+          </li>
+          <li>
+            Utilized the Google Maps API and react-geocode to add locations to
+            news sources.
+          </li>
+        </ul>
+        <h5>Other Technology Used</h5>
+        <p>Bootstrap</p>
+      </div>
+      <hr />
+      <div>
+        <h3>OpinionateR</h3>
+        <h6>Flatiron School - Student</h6>
+
+        <span class="badge badge-warning">JavaScript</span>
+        <span class="badge badge-danger">Ruby</span>
+        <span class="badge badge-danger">Rails</span>
+        <p>
+          Full-stack JavaScript and ROR application for companies to post a
+          question or survey and anonymous users and respond.
+        </p>
+        <ul>
+          <li>
+            Created false authentication with localStorage to allow users to
+            "login/logout"
+          </li>
+          <li>
+            Created RESTful API with ROR
+          </li>
+        </ul>
+        <h5>Other Technology Used</h5>
+        <p>Bootstrap</p>
+      </div>
+    </div>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <footer>
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
