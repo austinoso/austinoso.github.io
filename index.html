@@ -14,7 +14,9 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light side-padding">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light side-padding fixed-top"
+    >
       <button
         class="navbar-toggler"
         type="button"
@@ -29,21 +31,23 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link" href="./files/Resume_austin.pdf" download
+              >Resume</a
+            >
           </li>
         </ul>
       </div>
     </nav>
-
+    <a id="about"></a>
     <div class="jumbotron text-center jumbo-padding">
       <div class="container">
         <img class="circle-img" src="./images/avatar.jpg" />
@@ -77,6 +81,8 @@
     </div>
 
     <div class="container side-padding">
+      <a id="skills"></a>
+
       <h2 class="text-center spacing">Skills</h2>
       <div class="row">
         <div class="col-sm text-center">
@@ -102,6 +108,8 @@
     </div>
 
     <div class="container">
+      <a id="projects"></a>
+
       <h2 class="text-center spacing">Projects</h2>
       <div>
         <h3>Sealed</h3>
@@ -132,6 +140,20 @@
         </ul>
         <h5>Other Technology Used</h5>
         <p>Bootstrap, Redux, Redis</p>
+        <a href="https://github.com/austinoso/sealed-client">GitHub Frontend</a>
+        <span> | </span>
+        <a href="https://github.com/austinoso/capstone-messaging-api"
+          >GitHub Backend</a
+        >
+        <br />
+        <a
+          href="https://sealed-client.herokuapp.com/"
+          class="btn btn-primary btn-sm"
+          >Live Demo</a
+        >
+        <a href="https://youtu.be/MEx6GdK1emY" class="btn btn-secondary btn-sm"
+          >Video Demo</a
+        >
       </div>
       <hr />
       <div>
@@ -163,6 +185,17 @@
         </ul>
         <h5>Other Technology Used</h5>
         <p>Bootstrap</p>
+        <a href="https://github.com/austinoso/corona-files-client-mirror"
+          >GitHub Frontend</a
+        >
+        <span> | </span>
+        <a href="https://github.com/austinoso/corona-files-api-mirror"
+          >GitHub Backend</a
+        >
+        <br />
+        <a href="https://youtu.be/G5N-aHhG6z4" class="btn btn-secondary btn-sm"
+          >Demo Video</a
+        >
       </div>
       <hr />
       <div>
